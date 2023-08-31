@@ -67,7 +67,7 @@ const Header = () => {
                 </div>
             </header>
 
-            <div className={`cartSidebar ${menuCartOpen ? 'open' : ''}`}>
+            {/* <div className={`cartSidebar ${menuCartOpen ? 'open' : ''}`}>
                 <div className="overlay" onClick={toggleMenu}></div>
                 <aside>
                     <div className="top">
@@ -119,48 +119,6 @@ const Header = () => {
                             </div>
                             <button className="closeItem" title="Excluir item do carrinho">X</button>
                         </div>
-                        {/* <div className="boxItem">
-                            <div className="imgItem">
-                                <img src={imgItem1} alt="Item no carrinho" title="Item no carrinho"/>
-                            </div>
-                            <div className="contentText">
-                                <h6 className="titleItem">Asgaard sofa</h6>
-                                <div className="textItem">
-                                    <span>1</span>
-                                    <span>X</span>
-                                    <span className="fontStyle">Rs. 250,000.00</span>
-                                </div> 
-                            </div>
-                            <button className="closeItem" title="Excluir item do carrinho">X</button>
-                        </div>
-                        <div className="boxItem">
-                            <div className="imgItem">
-                                <img src={imgItem2} alt="Item no carrinho" title="Item no carrinho"/>
-                            </div>
-                            <div className="contentText">
-                                <h6 className="titleItem">Casaliving Wood</h6>
-                                <div className="textItem">
-                                    <span>1</span>
-                                    <span>X</span>
-                                    <span className="fontStyle">Rs. 270,000.00</span>
-                                </div> 
-                            </div>
-                            <button className="closeItem" title="Excluir item do carrinho">X</button>
-                        </div>
-                        <div className="boxItem">
-                            <div className="imgItem">
-                                <img src={imgItem2} alt="Item no carrinho" title="Item no carrinho"/>
-                            </div>
-                            <div className="contentText">
-                                <h6 className="titleItem">Casaliving Wood</h6>
-                                <div className="textItem">
-                                    <span>1</span>
-                                    <span>X</span>
-                                    <span className="fontStyle">Rs. 270,000.00</span>
-                                </div> 
-                            </div>
-                            <button className="closeItem" title="Excluir item do carrinho">X</button>
-                        </div> */}
                     </div>
                     <div className="bottom">
                         <div className="textContent">
@@ -186,7 +144,7 @@ const Header = () => {
                         </nav>
                     </div>
                 </aside>
-            </div>
+            </div> */}
         </>
     )
 }
